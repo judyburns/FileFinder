@@ -1,0 +1,10 @@
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\bin\Debug\FileFinder.Forms.exe.config
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\bin\Debug\FileFinder.Forms.exe
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\bin\Debug\FileFinder.Forms.pdb
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.csprojResolveAssemblyReference.cache
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.Form1.resources
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.Properties.Resources.resources
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.csproj.GenerateResource.Cache
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.csproj.CoreCompileInputs.cache
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.exe
+c:\users\clevelandcodes\source\repos\FileFinder.Forms\FileFinder.Forms\obj\Debug\FileFinder.Forms.pdb

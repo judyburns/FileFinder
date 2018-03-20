@@ -1,0 +1,36 @@
+
+Data Time: 3/18/2018 9:20:11 AM: Start Process
+Data Time: 3/18/2018 9:20:16 AM: Exception Thrown: Directory Not Found 
+Data Time: 3/18/2018 9:20:53 AM: IO Exception Thrown: Could not find a part of the path 'c:\hwtest'.
+Data Time: 3/18/2018 9:37:32 AM: Start Process
+Data Time: 3/18/2018 9:37:32 AM: Exception Thrown: Directory Not Found 
+Data Time: 3/18/2018 9:37:32 AM: IO Exception Thrown: Could not find a part of the path 'c:\hwtest16'.
+Data Time: 3/18/2018 9:37:58 AM: Start Process
+Data Time: 3/18/2018 9:37:58 AM: End Process
+Data Time: 3/19/2018 3:03:20 PM: Start Process
+Data Time: 3/19/2018 3:03:20 PM: End Process
+Data Time: 3/19/2018 3:05:02 PM: Start Process
+Data Time: 3/19/2018 3:05:02 PM: Exception Thrown: Directory Not Found 
+Data Time: 3/19/2018 3:05:02 PM: IO Exception Thrown: Could not find a part of the path 'c:\hw16testt'.
+Data Time: 3/19/2018 3:05:19 PM: Start Process
+Data Time: 3/19/2018 3:05:19 PM: End Process
+Data Time: 3/19/2018 3:07:15 PM: Start Process
+Data Time: 3/19/2018 3:07:15 PM: End Process
+Data Time: 3/19/2018 3:08:46 PM: Start Process
+Data Time: 3/19/2018 3:09:31 PM: End Process
+Data Time: 3/19/2018 3:17:26 PM: Start Process
+Data Time: 3/19/2018 3:17:26 PM: End Process
+Data Time: 3/19/2018 3:18:44 PM: Start Process
+Data Time: 3/19/2018 3:18:44 PM: End Process
+Data Time: 3/19/2018 3:20:10 PM: Start Process
+Data Time: 3/19/2018 3:20:10 PM: End Process
+Data Time: 3/19/2018 3:21:56 PM: Start Process
+Data Time: 3/19/2018 3:21:56 PM: End Process
+Data Time: 3/19/2018 3:22:59 PM: Start Process
+Data Time: 3/19/2018 3:22:59 PM: End Process
+Data Time: 3/19/2018 3:26:00 PM: Start Process
+Data Time: 3/19/2018 3:29:01 PM: End Process
+Data Time: 3/19/2018 5:53:37 PM: Start Process
+Data Time: 3/19/2018 5:53:37 PM: End Process
+Data Time: 3/19/2018 9:13:31 PM: Start Process
+Data Time: 3/19/2018 9:13:31 PM: End Process
