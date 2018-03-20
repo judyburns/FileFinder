@@ -17,36 +17,16 @@ namespace FileFinder.Forms
 
         private void Search_Click(object sender, EventArgs e)
         {
-            // initialize fields
-            errorcount = 0;
-            errorvalue.Text = "";
-            resultsvalue.Items.Clear();
+            // validate user input.
+            // if user input is in error, prompt the user with an error message.
+            bool dataOK = CheckDataEntered();
 
-            // path, extension, and search string input are required.
-            if (pathvalue.Text == "")
-            {
-                errorvalue.Text = "You Must Enter a Folder Path to Search";
-                errorcount = errorcount + 1;
-            }
-            else
-            if (extvalue.Text == "")
-            {
-                errorvalue.Text = "You Must Enter a File Extension (eg, XML, TXT, JSON, CONFIG)";
-                errorcount = errorcount + 1;
-            }
-            else
-            if (stringvalue.Text == "")
-            {
-                errorvalue.Text = "You Must Enter a Search String";
-                errorcount = errorcount + 1;
-            }
-
-            // check to see if an error has occurred. If so, then exit the method.
-            if (errorcount > 0)
+            if (!dataOK)
             {
                 return;
             }
 
+            // process user input.
             try
             {
                 fs = new FileStream("Log.txt", FileMode.Append, FileAccess.Write);
@@ -72,6 +52,49 @@ namespace FileFinder.Forms
                 return;
             }
 
+        }
+
+        // check the data the user has entered.
+        // if incorrect, prompt the user with a message.
+        private bool CheckDataEntered()
+        {
+            bool dataOK = false;
+
+            // initialize fields
+            errorcount = 0;
+            errorvalue.Text = "";
+            resultsvalue.Items.Clear();
+
+            // path, extension, and search string input are required.
+            // when the user input is in error, prompt the user immediately.
+            // error count will be 0 (for no errors) or 1 when an error is encountered.
+            if (pathvalue.Text == "")
+            {
+                errorvalue.Text = "You Must Enter a Folder Path to Search";
+                errorcount = errorcount + 1;
+            }
+            else
+            if (extvalue.Text == "")
+            {
+                errorvalue.Text = "You Must Enter a File Extension (eg, XML, TXT, JSON, CONFIG)";
+                errorcount = errorcount + 1;
+            }
+            else
+            if (stringvalue.Text == "")
+            {
+                errorvalue.Text = "You Must Enter a Search String";
+                errorcount = errorcount + 1;
+            }
+
+            // check to see if an error has occurred. If so, then exit the method.
+            if (errorcount > 0)
+            {
+                dataOK = false;
+            }
+            else {
+                dataOK = true;
+            }
+            return dataOK;
         }
 
         // retrieve files within a directory (path) matching the extension given by the user.
